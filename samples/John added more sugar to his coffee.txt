@@ -1,0 +1,16 @@
+----------------Plan-----------------
+fact_about_object; character: John; There is a sugar bowl at cafe.
+Precondition item needed; character: John; has money satisfied.
+Event:John walked to get to cafe.
+Precondition location; character: John; at cafe satisfied.
+Event:John buys sugar at the cafe.; John buys sugar at the cafe.
+Precondition item needed; character: John; has sugar bowl satisfied.
+fact_about_object; character: John; There is more money at cafe.
+Precondition location; character: John; at cafe satisfied.
+Event:John earns money.; John earns money at cafe
+Precondition item needed; character: John; has more money satisfied.
+Precondition location; character: John; at cafe satisfied.
+Event:John filled the sugar bowl with more sugar.; John filled the sugar bowl with more sugar at cafe
+Precondition item state; character: John; the sugar bowl needs to be filled satisfied.
+Precondition location; character: John; at cafe satisfied.
+Event:John added more sugar to his coffee.; John added more sugar to his coffee at cafe

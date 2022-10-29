@@ -1,0 +1,49 @@
+// myplan
+digraph {
+	0 [label="Event:John added more sugar to his coffee.
+John added more sugar to his coffee at cafe"]
+	1 [label="Event:John walked to get to cafe."]
+	2 [label="location
+character: John
+at cafe"]
+	3 [label="Event:John filled the sugar bowl with more sugar.
+John filled the sugar bowl with more sugar at cafe"]
+	4 [label="item state
+character: John
+the sugar bowl needs to be filled"]
+	5 [label="Event:John buys sugar at the cafe.
+John buys sugar at the cafe."]
+	6 [label="item needed
+character: John
+has sugar bowl"]
+	7 [label="item needed
+character: John
+has money"]
+	8 [label="fact_about_object
+character: John
+There is a sugar bowl at cafe."]
+	9 [label="Event:John earns money.
+John earns money at cafe"]
+	10 [label="item needed
+character: John
+has more money"]
+	11 [label="fact_about_object
+character: John
+There is more money at cafe."]
+	1 -> 2
+	2 -> 0
+	2 -> 5
+	2 -> 3
+	2 -> 9
+	3 -> 4
+	4 -> 0
+	5 -> 6
+	6 -> 0
+	6 -> 3
+	7 -> 5
+	7 -> 9
+	8 -> 5
+	9 -> 10
+	10 -> 3
+	11 -> 9
+}

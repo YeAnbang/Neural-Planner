@@ -1,0 +1,9 @@
+----------------Plan-----------------
+fact_about_object; character: John; There is sunscreen in the cabinet at John's kitchen
+Event:John walked to get to kitchen.
+Precondition location; character: John; at kitchen satisfied.
+Event:John gets sunscreen from the cabinet.; John gets sunscreen from the cabinet.
+Precondition item needed; character: John; has sunscreen satisfied.
+Event:John walked to get to garden.
+Precondition location; character: John; at garden satisfied.
+Event:John applied sunscreen to his hands.; John applied sunscreen to his hands at garden

@@ -1,0 +1,28 @@
+// myplan
+digraph {
+	0 [label="Event:John applied sunscreen to his hands.
+John applied sunscreen to his hands at garden"]
+	1 [label="Event:John walked to get to garden."]
+	2 [label="location
+character: John
+at garden"]
+	3 [label="Event:John gets sunscreen from the cabinet.
+John gets sunscreen from the cabinet."]
+	4 [label="item needed
+character: John
+has sunscreen"]
+	5 [label="fact_about_object
+character: John
+There is sunscreen in the cabinet at John's kitchen"]
+	6 [label="Event:John walked to get to kitchen."]
+	7 [label="location
+character: John
+at kitchen"]
+	1 -> 2
+	2 -> 0
+	3 -> 4
+	4 -> 0
+	5 -> 3
+	6 -> 7
+	7 -> 3
+}
